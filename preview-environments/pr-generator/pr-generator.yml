@@ -27,6 +27,8 @@ spec:
       destination:
         server: https://kubernetes.default.svc
         namespace: 'preview-{{.branch_slug}}'
+      labels:
+        - preview-ready
       syncPolicy:
         automated:
           prune: true  
