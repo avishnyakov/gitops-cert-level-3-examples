@@ -13,22 +13,27 @@ spec:
         region: us  
         type: non-prod   
         version: qa     
+        
       - env: staging-asia
         region: asia
         type: non-prod  
-        version: staging       
+        version: staging
+        
       - env: staging-eu
         region: eu
         type: non-prod  
-        version: staging       
+        version: staging   
+        
       - env: staging-us
         region: us
         type: non-prod  
-        version: staging       
+        version: staging   
+        
       - env: prod-eu
         region: eu  
         type: prod  
-        version: prod       
+        version: prod    
+        
       - env: prod-us
         region: us 
         type: prod
