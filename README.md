@@ -1,4 +1,4 @@
-my-billing-feature
+fix-queue-size-lb
 
 Codefresh GitOps Certification examples - Level 3 - GitOps Enterprise
 
